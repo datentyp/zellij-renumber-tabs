@@ -64,7 +64,7 @@ chmod +x ~/.local/bin/zellij-renumber-tabs
 ```kdl
 keybinds {
     tab {
-        bind "m" { Run "zellij-renumber-tabs.sh"; }
+        bind "m" { Run "zellij-renumber-tabs"; }
     }
 }
 ```
@@ -75,7 +75,7 @@ keybinds {
 Simply run the script while Zellij is active:
 
 ```bash
-zellij-renumber-tabs.sh
+zellij-renumber-tabs
 ```
 
 Or use your configured keybinding.
@@ -111,7 +111,7 @@ etc.):
 
 ```bash
 # Add this to your shell startup file
-alias zellij='zellij; zellij-renumber-tabs.sh'
+alias zellij='zellij; zellij-renumber-tabs'
 ```
 
 ## How It Works
