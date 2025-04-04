@@ -19,7 +19,7 @@ The problem also occurs when you use descriptive custom tab names like "Coding",
 
 ```shell
 #!/usr/bin/env sh
-command nohup zellij action rename-tab $1 >/dev/null 2>&1
+command nohup zellij action rename-tab "$1" >/dev/null 2>&1
 ```
 
 This issue is documented in the [Zellij GitHub repository](https://github.com/zellij-org/zellij/issues/3709), which was
